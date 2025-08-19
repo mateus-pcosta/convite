@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Surpresa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Tela inicial com envelope -->
+    <div class="envelope-container">
+        <div class="envelope">
+            <div class="envelope-front">
+                <div class="envelope-content">
+                    <p>Para: Helena</p>
+                    <p>De: Mateus</p>
+                    <p style="margin-top: clamp(10px, 3vw, 20px);">Clique para abrir</p>
+                </div>
+            </div>
+            <div class="envelope-flap"></div>
+            <div class="envelope-back"></div>
+        </div>
+    </div>
+    
+    <!-- Convite (inicialmente escondido) -->
+    <div class="convite-container">
+        <div class="convite">
+            <h1>💖 CONVITE ESPECIAL 💖</h1>
+            
+            <div class="foto-casal">
+                <img src="200.gif" alt="Mateus e Helena">
+            </div>
+            
+            <div class="nomes">Helena & Mateus</div>
+            
+            <div class="detalhes">
+                <p>📅 <strong>Data:</strong> <span id="data">24/08/2025</span></p>
+                <p>⏰ <strong>Hora:</strong> <span id="hora">7:30 AM</span></p>
+                <p>📍 <strong>Local:</strong> <span id="local">Parque Zoobotânico de Teresina</span></p>
+            </div>
+            
+            <p class="mensagem">Helena, você está oficialmente convidada para o nosso casamento/encontro! Com direito a muita comida, andar de bicicleta, ver bixos, falar muita besteria, e muito mais.</p>
+            
+            <div class="piada">
+                <p>P.S.: O horário é flexível conforme o despertar da princesa (você sabe como é, né? 😴❤)</p>
+                <p>Sugestão: a cada animal visto é um beijo 😝.</p>
+            </div>
+            
+            <button class="botao" id="btnAceitar">Aceitar Este Encontro</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
